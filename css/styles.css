@@ -1,37 +1,39 @@
+.w1024.homepage .page-container {
+    width: 100%;
+}
+
+.wrapper {
+  padding-top: 100px;
+}
+
+#leftbar, #topban, .homepage #rightbar  {
+  background: #fff;
+}
+
 .homepage a {
   color: grey;
 }
+
 .homepage a:hover {
   color: black;
   text-decoration: none;
 }
+
 .homepage .ban {
   background: #fff;
   border-radius: 5px;
   border: solid 1px #ccc;
   box-shadow: 0 0 25px #F0F0F0;
 }
+
 .homepage .ban a:hover {
     background: none;
 }
-#leftbar, #topban, .homepage #rightbar  {
-  background: #fff;
-}
-#logo {
-  font-size: 40px;
-}
+
 .homepage #logo {
-  font-size: 60px;
+  font-size: 2em;
 }
-.w1024.homepage .page-container {
-    width: 100%;
-}
-#topban {
-  border-radius: 10px;
-  border: solid 1px #ccc;
-  box-shadow: 0 0 25px #F0F0F0;
-  padding: 10px 0;
-}
+
 .homepage #postlks #post {
   background-color: #3FC380;
   border-radius: 10px;
@@ -39,6 +41,29 @@
   padding: 10px 20px;
   margin: 10px 0;
 }
+
 .homepage #postlks li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+#topban {
+  border-radius: 10px;
+  border: solid 1px #ccc;
+  box-shadow: 0 0 25px #F0F0F0;
+  margin: 0px 2.5%;
+  padding: 10px 0;
+  position: absolute;
+  top: -75px;
+  width: 95%;
+}
+
+.homepage #rightbar {
+  margin-top: 2.25em;
+}
+
+#leftbar {
+  border-radius:  0 10px 10px 0;
+  border: 1px #ccc solid;
+  box-shadow: 0 0 25px #F0F0F0;
+  padding-top: 20px;
 }

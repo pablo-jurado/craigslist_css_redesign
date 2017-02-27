@@ -1,5 +1,5 @@
 .w1024.homepage .page-container {
-    width: 100%;
+  width: 100%;
 }
 
 .wrapper {
@@ -21,17 +21,22 @@
 
 .homepage .ban {
   background: #fff;
-  border-radius: 5px;
+  border-radius: 0 10px 10px 0;
   border: solid 1px #ccc;
   box-shadow: 0 0 25px #F0F0F0;
+  padding: 12px;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  background: #eee;
+  border-left: 5px solid grey;
 }
 
 .homepage .ban a:hover {
-    background: none;
+  background: none;
 }
 
 .homepage #logo {
-  font-size: 2em;
+  font-size: 4em;
 }
 
 .homepage #postlks #post {
@@ -53,17 +58,59 @@
   margin: 0px 2.5%;
   padding: 10px 0;
   position: absolute;
+  right: 0px;
   top: -75px;
-  width: 95%;
+  width: 75%;
 }
 
-.homepage #rightbar {
-  margin-top: 2.25em;
+.homepage #rightbar, .homepage .community, #rrr ,#ggg {
+  /*margin-top: 2.25em;*/
+  display: none;
 }
 
 #leftbar {
   border-radius:  0 10px 10px 0;
   border: 1px #ccc solid;
   box-shadow: 0 0 25px #F0F0F0;
+  margin-top: -91px;
   padding-top: 20px;
+}
+
+.homepage #center {
+  width: 75%;
+  margin: 0 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .housing, .homepage .jobs {
+  float: none;;
+  padding: 0;
+  width: 100%;
+}
+
+.homepage .housing {
+  order: 2;
+}
+
+.homepage .jobs {
+  order: 1;
+}
+
+/*.homepage .col ul, #jjj ul {
+  font-size: medium;
+  display: flex;
+  flex-wrap: wrap;
+}*/
+.homepage #ppp ul, .homepage #hhh ul, .homepage #jjj ul {
+  font-size: medium;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.homepage .col ul li {
+  margin: 5px;
+  padding: 5px;
+  width: 17.6%;
 }
